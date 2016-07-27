@@ -5,7 +5,7 @@
     "command-line": "segment.r --flair=[FLAIR] --t1_pre=[T1PRE] --t1_post=[T1POST] --t2=[T2] --pd=[PD] --outdir=[OUTDIR] [ID] [OUTFILE]",
     "docker-image": "muschellij2/msseg",
     "docker-index": "http://index.docker.io",
-    "schema-version": "0.3",
+    "schema-version": "0.2",
     "vip:miccai-challenger-email": "jmuschel@jhsph.edu",
     "vip:miccai-challenge-team-name": "jhu",
     "inputs": [
@@ -72,7 +72,7 @@
         {
             "id": "outdir",
             "name": "Output directory",
-            "type": "directory",
+            "type": "String",
             "description": "Directory for intermediate files",
             "command-line-key": "[OUTDIR]",
             "list": false,
