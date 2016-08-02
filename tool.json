@@ -3,7 +3,7 @@
     "tool-version": "1.0",
     "description": "John Muschelli MSSEG challenge submission",
     "command-line": "segment.r --flair=[FLAIR] --t1_pre=[T1PRE] --t1_post=[T1POST] --t2=[T2] --pd=[PD] --outdir=[OUTDIR] [ID] [OUTFILE]",
-    "docker-image": "muschellij2/msseg",
+    "docker-image": "viplatform/miccai_challenge_2016_jhu",
     "docker-index": "http://index.docker.io",
     "schema-version": "0.2",
     "vip:miccai-challenger-email": "jmuschel@jhsph.edu",
